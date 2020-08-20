@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    margin: 0 auto;
+}
+
+#title {
+    color: blue;
+    max-width: 1000px;
+    margin: 1em auto;
+}
+
+#description {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: red;
+    font-size: 1.2rem;
+}
+
+#survey-form {
+    background-color: cadetblue;
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 1000px;
+}
+
+label {
+    display: block;
+}
+input:not([type="radio"]):not([type="checkbox"]) {
+    margin-bottom: 1em;
+    display: block;
+    width: 70%;
+   
+}
+
+button {
+    display: block;
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: .5em 1.5em;
+}
